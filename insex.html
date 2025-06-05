@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanithu Senvidu - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-ring"></div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-grid"></div>
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">CS</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link"><span>01.</span>Home</a></li>
+                <li><a href="#about" class="nav-link"><span>02.</span>About</a></li>
+                <li><a href="#skills" class="nav-link"><span>03.</span>Skills</a></li>
+                <li><a href="#projects" class="nav-link"><span>04.</span>Projects</a></li>
+                <li><a href="#resume" class="nav-link"><span>05.</span>Resume</a></li>
+                <li><a href="#contact" class="nav-link"><span>06.</span>Contact</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-wrapper">
+            <div class="hero-content">
+                <h1 class="hero-title">CHANITHU SENVIDU</h1>
+                <h2 class="hero-subtitle">COMPUTER SCIENCE UNDERGRADUATE</h2>
+                <p class="hero-description">
+                    Passionate about robotics and machine learning, I'm exploring the intersection of technology and innovation to create impactful solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-folder"></i> View Projects
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="chanithu.jpg" alt="Chanithu Senvidu" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    Im a passionate Computer Science student at the Informatics Institute of Technology, deeply interested in backend development, algorithms, and robotics. I love building efficient systems, solving complex problems, and constantly pushing my skills forward in the ever-evolving tech landscape.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills reveal">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Technologies</h3>
+                    <ul class="skill-list">
+                        <li>Spring Boot</li>
+                        <li>JAX-RS</li>
+                        <li>Angular</li>
+                        <li>React JS</li>
+                        <li>Flutter</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <ul class="skill-list">
+                        <li>MySQL</li>
+                        <li>H2</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <ul class="skill-list">
+                        <li>Postman</li>
+                        <li>Git</li>
+                        <li>MS Office</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects reveal">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="oc.png" alt="Ocean Project">
+                        <div class="project-overlay">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>OCEAN</h3>
+                        <p class="project-date">September 2023 - December 2023</p>
+                        <p class="project-description">
+                            Collaborated with a university group to develop Ocean, a website aimed at water conservation and management.
+                        </p>
+                        <p class="tech-stack">HTML • CSS • JavaScript</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="HopeBridge.JPG" alt="Hope Bridge Project">
+                        <div class="project-overlay">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hope Bridge</h3>
+                        <p class="project-date">November 2024 - March 2025</p>
+                        <p class="project-description">
+                            Developed a donation platform using Flutter and Spring Boot to connect donors, underprivileged individuals, and businesses for secure and transparent contributions.
+                        </p>
+                        <p class="tech-stack">Flutter • Spring Boot • React JS</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Ticketing system .png" alt="Ticketing System">
+                        <div class="project-overlay">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-time Ticketing System</h3>
+                        <p class="project-date">November 2024 - December 2024</p>
+                        <p class="project-description">
+                            Implemented a real-time ticketing system to manage and track ticket sales efficiently.
+                        </p>
+                        <p class="tech-stack">Spring Boot • React JS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume reveal">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-text">
+                    <h3>Why Choose Me?</h3>
+                    <p>
+                        As a passionate Computer Science student with a strong foundation in modern technologies and a drive for innovation, I bring fresh perspectives and cutting-edge solutions to every project.
+                    </p>
+                    <a href="ChanithuCV.pdf" class="download-btn" download>
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+94 74 278 6530</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>senviduchanithu89@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Malabe, Colombo</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="hhttps://www.linkedin.com/in/chanithusenvidu/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Senvidu" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Chanithu Senvidu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
